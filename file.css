@@ -33,3 +33,16 @@ button{
       margin-left:340px;
       background-color: rgba(21, 92, 225, 0.345);
 }
+.img{
+      width:50px;
+      margin-left:-450px;
+      
+}
+.vibrate {
+  animation: vibrate 2s infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: translate(0); }
+  25% { transform: translate(100px); }
+}
