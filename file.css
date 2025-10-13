@@ -38,11 +38,11 @@ button{
       margin-left:-450px;
       
 }
-.vibrate {
+/* .vibrate {
   animation: vibrate 2s infinite;
 }
 
 @keyframes vibrate {
   0% { transform: translate(0); }
   25% { transform: translate(100px); }
-}
+} */
