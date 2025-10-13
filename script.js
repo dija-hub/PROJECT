@@ -1,0 +1,1 @@
+const vibrate=document.getElementById("vibrate")
