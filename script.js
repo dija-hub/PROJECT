@@ -1,5 +1,8 @@
-const vibrateBtn=document.getElementsByClassName("vibrate");
-function sayhello(){
-console.log("hello!")
-}
-vibrateBtn.onclick = sayhello();
+const vibrateBtn=document.getElementById("vibrate");
+const msg = document.getElementById("message");
+
+
+  function sayHello() {
+      msg.innerText = "Hello! 🌸";
+    }
+vibrateBtn.onclick = sayHello;
