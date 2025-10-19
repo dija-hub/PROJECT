@@ -1,8 +1,13 @@
-const vibrateBtn=document.getElementById("vibrate");
-const msg = document.getElementById("message");
+let result="";
+let task1=document.getElementById("task");
+
+function addTask(){
+let result=task1.value;
+document.getElementById("taskList").textContent=result;
+
+}
 
 
-  function sayHello() {
-      msg.innerText = "Hello! 🌸";
-    }
-vibrateBtn.onclick = sayHello;
+
+
+ 

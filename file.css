@@ -38,15 +38,9 @@ button{
       margin-left:-450px;
       
 }
-/* #vibrate {
-  animation: vibrate 2s infinite;
-}
 
-@keyframes vibrate {
-  0% { transform: translate(0); }
-  25% { transform: translate(100px); }
-} */
-#message{
-      margin-top:-40px;
-      margin-left:-290px;
+ul{
+      margin-left:-200px;
+      margin-top:70px;
+      
 }
