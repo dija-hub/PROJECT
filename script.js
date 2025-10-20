@@ -1,10 +1,10 @@
-let result="";
-let task1=document.getElementById("task");
+
 
 function addTask(){
-let result=task1.value;
-document.getElementById("taskList").textContent=result;
-
+let task=document.getElementById("task").value;
+let li= document.createElement("li");
+li.textContent=task;
+document.getElementById("taskList").appendChild(li);
 }
 
 
